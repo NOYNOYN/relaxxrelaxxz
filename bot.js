@@ -239,13 +239,13 @@ function isYoutube(str) {
       ايقاف الاغنية مؤقتا 
     **${prefix}resume**
     **   امر تكملة الاغنية
-  **  ${prefix}move**
+    ${prefix}**move**
    سحب البوت او ادخال البوت الى روم
    
    صاحب البوت :<@452191687159185409>
 
      prefix = ${prefix}
-     ping = ${Date.now() - message.createdTimestamp}`)
+   **  ping = ${Date.now() **- message.createdTimestamp}`)
 
       message.channel.send({embed});
      }
