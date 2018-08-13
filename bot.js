@@ -235,11 +235,11 @@ function isYoutube(str) {
      امر تخطي الاغنية
     **${prefix}vol**
     تغير مستوى الصوت 1 - 100
-       ${prefix}pause**
+       ${prefix}**pause**
       ايقاف الاغنية مؤقتا 
-    **${prefix}resume**
+    **${prefix}**resume**
        امر تكملة الاغنية
-    **${prefix}move**
+    **${prefix}**move**
    سحب البوت او ادخال البوت الى روم
    
    صاحب البوت :<@452191687159185409>
