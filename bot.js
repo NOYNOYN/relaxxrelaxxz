@@ -238,7 +238,7 @@ function isYoutube(str) {
       ${prefix}pause
       ايقاف الاغنية مؤقتا 
     ${prefix}resume
-    **   امر تكملة الاغنية
+       امر تكملة الاغنية
     ${prefix}move
    سحب البوت او ادخال البوت الى روم
    
