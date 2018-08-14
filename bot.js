@@ -300,6 +300,12 @@ if (message.content.startsWith(prefix + 'setplay')) {
 
 });
 
+} else if (command === `np`) {
+		if (!serverQueue) return msg.channel.send('لا يوجد شيء حالي ف العمل.');
+		const embedNP = new Discord.RichEmbed()
+	.setDescription(`:notes: الان يتم تشغيل : **${serverQueue.songs[0].title}**`)
+		return msg.channel.sendEmbed(embedNP);
+
 
 
 client.login(process.env.BOT_TOKEN);
