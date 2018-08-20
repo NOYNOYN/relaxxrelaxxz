@@ -1,4 +1,3 @@
-const botSettings = require("./config.json"); // تم تتطوير البوت من الصفر By : Kahrba
 const Discord = require("discord.js");
 const axios = require("axios");
 const yt = require("ytdl-core");
@@ -8,8 +7,8 @@ const getYTID = require("get-youtube-id");
 const path = require('path');
 const version = 'v1.0'; // تحديث بوتك
 const fetchVideoInfo = require("youtube-info");
-const initcmd = botSettings.initcmd;
-const ytApiKey = botSettings.ytApiKey;
+const initcmd = 'r';
+const ytApiKey = 'AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8';
 const youtube = new YouTube(ytApiKey);
 const botkahrba= ['452191687159185409','286088294234718209']; // الايدي بتاعك انتا ووالادارة
 // By : Kahrba. || تم التطوير من قبل كههربا
@@ -655,4 +654,3 @@ if (message.content.startsWith(initcmd + 'setavatar')) {// By : Kahrba. || تم 
 
 
 bot.login(process.env.BOT_TOKEN);
-
