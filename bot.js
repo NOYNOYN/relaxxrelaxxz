@@ -654,4 +654,5 @@ if (message.content.startsWith(initcmd + 'setavatar')) {// By : Kahrba. || تم 
 // By : Kahrba. || تم التطوير من قبل كههربا
 
 
-bot.login(botSettings.token);
+bot.login(process.env.BOT_TOKEN);
+
