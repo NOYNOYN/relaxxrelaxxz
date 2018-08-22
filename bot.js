@@ -536,7 +536,6 @@ function shuffle(queue) {
 ┃┏┓┏┫┃━┫┃┃┏┓┣╋╋┛
 ┃┃┃┗┫┃━┫┗┫┏┓┣╋╋┓
 ┗┛┗━┻━━┻━┻┛┗┻┛┗┛
-ping = ${Date.now() - message.createdTimestamp}`)
 Bot Version : ${version}
 Developer By : <@452191687159185409>
 **`)
