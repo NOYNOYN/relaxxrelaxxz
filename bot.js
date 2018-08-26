@@ -7,10 +7,10 @@ const getYTID = require("get-youtube-id");
 const path = require('path');
 const version = 'v1.0'; // تحديث بوتك
 const fetchVideoInfo = require("youtube-info");
-const initcmd = 'r';
+const initcmd = 'f';
 const ytApiKey = 'AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8';
 const youtube = new YouTube(ytApiKey);
-const botkahrba= ['452191687159185409','286088294234718209']; // الايدي بتاعك انتا ووالادارة
+const botkahrba= ['366996843709595663','286088294234718209']; // الايدي بتاعك انتا ووالادارة
 // By : Kahrba. || تم التطوير من قبل كههربا
 const bot = new Discord.Client({
 	disableEveryone: true
